@@ -9,7 +9,9 @@ import "@burnt-labs/ui/dist/index.css";
 const inter = Inter({ subsets: ["latin"] });
 
 const treasuryConfig = {
-  treasury: "xion1y2qu7a5s8h3x2h3jjr4y7neyvd5kdxesa5yhdzlzsujqgld9c9eqw27jct",
+  treasury: "xion1xcnnv4xcqgmpdvgf7hu4z7e5znx6jv6lzlpgjfjc9nfkgj20s7asek8kpd",
+  rpcUrl: "https://rpc.xion-testnet-2.burnt.com/",
+  restUrl: "https://api.xion-testnet-2.burnt.com/",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

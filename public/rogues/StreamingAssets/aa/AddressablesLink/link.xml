@@ -21,6 +21,8 @@
     <type fullname="CommonsController" preserve="all" />
     <type fullname="CommonsTester" preserve="all" />
     <type fullname="CooldownManager" preserve="all" />
+    <type fullname="CooldownNode" preserve="all" />
+    <type fullname="CooldownsController" preserve="all" />
     <type fullname="CraftingManager" preserve="all" />
     <type fullname="CraftingTrigger" preserve="all" />
     <type fullname="CrevasseKiller" preserve="all" />
@@ -57,6 +59,7 @@
     <type fullname="InventoryListener" preserve="all" />
     <type fullname="InventoryManager" preserve="all" />
     <type fullname="InventoryUI" preserve="all" />
+    <type fullname="ItemsUsers" preserve="all" />
     <type fullname="Launcher" preserve="all" />
     <type fullname="LauncherSpawnPosition" preserve="all" />
     <type fullname="LeaderboardLineUI" preserve="all" />
@@ -72,6 +75,8 @@
     <type fullname="MapController" preserve="all" />
     <type fullname="MapTester" preserve="all" />
     <type fullname="MapTransition" preserve="all" />
+    <type fullname="MissionCamera" preserve="all" />
+    <type fullname="Missions" preserve="all" />
     <type fullname="MobController" preserve="all" />
     <type fullname="MobNode" preserve="all" />
     <type fullname="MountainPassController" preserve="all" />
@@ -116,14 +121,17 @@
     <type fullname="ScoreText" preserve="all" />
     <type fullname="SequenceSharp.Wallet" preserve="all" />
     <type fullname="SetFromMetadata" preserve="all" />
+    <type fullname="SimpleSceneLoader" preserve="all" />
     <type fullname="SpeechBubbleOptionView" preserve="all" />
     <type fullname="SpeechBubbleView" preserve="all" />
     <type fullname="SpineAnimator" preserve="all" />
     <type fullname="SpriteClicker" preserve="all" />
     <type fullname="StoryManager" preserve="all" />
     <type fullname="StreakManager" preserve="all" />
+    <type fullname="TelegramManager" preserve="all" />
     <type fullname="Teleport" preserve="all" />
     <type fullname="TestMultiplayerAI" preserve="all" />
+    <type fullname="TestSetHolding" preserve="all" />
     <type fullname="TokenIDTester" preserve="all" />
     <type fullname="Treasure" preserve="all" />
     <type fullname="TriggerDialogue" preserve="all" />
@@ -156,11 +164,14 @@
     <type fullname="UICraftable" preserve="all" />
     <type fullname="UICrafting" preserve="all" />
     <type fullname="UICurrentInfo" preserve="all" />
+    <type fullname="UIDaily" preserve="all" />
+    <type fullname="UIDailyLogin" preserve="all" />
     <type fullname="UIDailyRewards" preserve="all" />
     <type fullname="UIDebug" preserve="all" />
     <type fullname="UIDespatchReceiver" preserve="all" />
     <type fullname="UIDespatchSender" preserve="all" />
     <type fullname="UIDisconnectToMain" preserve="all" />
+    <type fullname="UIExclamation" preserve="all" />
     <type fullname="UIFishing" preserve="all" />
     <type fullname="UIFishingProgress" preserve="all" />
     <type fullname="UIFTLeaderboard" preserve="all" />
@@ -171,6 +182,8 @@
     <type fullname="UIInventoryItem" preserve="all" />
     <type fullname="UIInventoryTabButton" preserve="all" />
     <type fullname="UIInventoryTabs" preserve="all" />
+    <type fullname="UIItemsUsers" preserve="all" />
+    <type fullname="UIItemUser" preserve="all" />
     <type fullname="UILazyTextureLoader" preserve="all" />
     <type fullname="UILeaderLine" preserve="all" />
     <type fullname="UILoadUI" preserve="all" />
@@ -178,6 +191,8 @@
     <type fullname="UIMainScene" preserve="all" />
     <type fullname="UIMenu" preserve="all" />
     <type fullname="UIMissionLine" preserve="all" />
+    <type fullname="UIMissions" preserve="all" />
+    <type fullname="UIMobileControls" preserve="all" />
     <type fullname="UINotification" preserve="all" />
     <type fullname="UIObjective" preserve="all" />
     <type fullname="UIOpenUrl" preserve="all" />
@@ -205,6 +220,7 @@
     <type fullname="UIStreakProgress" preserve="all" />
     <type fullname="UISummon" preserve="all" />
     <type fullname="UITabButtons" preserve="all" />
+    <type fullname="UITelegramManager" preserve="all" />
     <type fullname="UITester" preserve="all" />
     <type fullname="UITextIcon" preserve="all" />
     <type fullname="UITogglePanel" preserve="all" />
@@ -227,11 +243,11 @@
     <type fullname=".UIStringToEvent" preserve="nothing" serialized="true" />
     <type fullname="Rogues.Quest" preserve="nothing" serialized="true" />
     <type fullname="Rogues.QuestTask" preserve="nothing" serialized="true" />
+    <type fullname="SequenceSharp.ProviderConfig" preserve="nothing" serialized="true" />
     <type fullname=".AreaUnlock" preserve="nothing" serialized="true" />
-    <type fullname=".GameItem" preserve="nothing" serialized="true" />
     <type fullname="Rogues.Testing.AddressInfo" preserve="nothing" serialized="true" />
     <type fullname="Rogues.Testing.ProgressTest" preserve="nothing" serialized="true" />
-    <type fullname="SequenceSharp.ProviderConfig" preserve="nothing" serialized="true" />
+    <type fullname=".GameItem" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Web3Auth" preserve="all" />
@@ -257,6 +273,9 @@
     <type fullname="Gameframe.ScriptableObjects.Events.GameEventListener" preserve="all" />
     <type fullname="Gameframe.ScriptableObjects.Variables.IntVariable" preserve="all" />
     <type fullname="Gameframe.ScriptableObjects.Variables.StringVariable" preserve="all" />
+  </assembly>
+  <assembly fullname="EnhancedOnScreenStick, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="EnhancedOnScreenControls.EnhancedOnScreenStick" preserve="all" />
   </assembly>
   <assembly fullname="GraphQL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="GraphQL4Unity.GraphQLHttp" preserve="all" />
@@ -308,6 +327,7 @@
   <assembly fullname="Unity.InputSystem, Version=1.8.2.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
     <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.OnScreen.OnScreenButton" preserve="all" />
     <type fullname="UnityEngine.InputSystem.PlayerInput" preserve="all" />
     <type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="all" />
     <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
@@ -353,6 +373,10 @@
     <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.GlyphAnchorPoint" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.LigatureSubstitutionRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.MarkPositionAdjustment" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.MarkToBaseAdjustmentRecord" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />

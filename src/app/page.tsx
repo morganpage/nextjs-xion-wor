@@ -6,7 +6,7 @@ import { Button } from "@burnt-labs/ui";
 import "@burnt-labs/ui/dist/index.css";
 import type { ExecuteResult } from "@cosmjs/cosmwasm-stargate";
 
-const contractAddress = "xion1snacuj95w0gl9c9zyaqx0ph2svf8yphe74fraxpsv4vuhxkdh5dsm2dkln";
+const contractAddress = "xion1qj459un4244amq0rhkxx4wntfajcelfxnca7q20s6t28l9q9f7rqwvfjej";
 
 type ExecuteResultOrUndefined = ExecuteResult | undefined;
 
@@ -42,7 +42,7 @@ export default function Page(): JSX.Element {
   const [loading, setLoading] = useState(false);
   const [executeResult, setExecuteResult] = useState<ExecuteResultOrUndefined>(undefined);
 
-  const blockExplorerUrl = `https://explorer.burnt.com/xion-testnet-1/tx/${executeResult?.transactionHash}`;
+  //const blockExplorerUrl = `https://explorer.burnt.com/xion-testnet-1/tx/${executeResult?.transactionHash}`;
 
   function getTimestampInSeconds(date: Date | null): number {
     if (!date) return 0;
