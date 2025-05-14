@@ -6,7 +6,7 @@ import { Button } from "@burnt-labs/ui";
 import "@burnt-labs/ui/dist/index.css";
 import type { ExecuteResult } from "@cosmjs/cosmwasm-stargate";
 
-const contractAddress = "xion1qj459un4244amq0rhkxx4wntfajcelfxnca7q20s6t28l9q9f7rqwvfjej";
+const contractAddress = "xion136cr62klxmqddgjv2e56uyy5q444xf39q4u9eu8ggslmqwurxa6s245a2e";
 
 type ExecuteResultOrUndefined = ExecuteResult | undefined;
 
